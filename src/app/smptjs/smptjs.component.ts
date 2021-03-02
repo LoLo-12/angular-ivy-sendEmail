@@ -19,6 +19,7 @@ export class SmptjsComponent implements OnInit {
   ngOnInit() {}
 
   // https://www.smtpjs.com/
+  // https://note.jackie.com.tw/index.php/2020/09/05/smtpjs-send-gmail/
   public sendForm() {
     Email.send({
       SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
