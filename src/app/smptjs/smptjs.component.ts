@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import "smtpjs";
 declare let Email: any;
 
 @Component({
