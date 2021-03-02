@@ -26,8 +26,7 @@ export class EmailjsComponent implements OnInit {
       )
       .then(
         (result: EmailJSResponseStatus) => {
-          console.log(result.text);
-          console.log("send ok");
+          console.log(result.text, "send ok");
         },
         error => {
           console.log(error.text, "send error");
