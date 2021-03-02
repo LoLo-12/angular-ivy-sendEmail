@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-smptjs',
-  templateUrl: './smptjs.component.html',
-  styleUrls: ['./smptjs.component.css']
+  selector: "app-smptjs",
+  templateUrl: "./smptjs.component.html",
+  styleUrls: ["./smptjs.component.css"]
 })
 export class SmptjsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
