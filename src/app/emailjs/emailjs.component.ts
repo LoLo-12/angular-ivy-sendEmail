@@ -11,6 +11,8 @@ export class EmailjsComponent implements OnInit {
 
   ngOnInit() {}
 
+  // https://www.emailjs.com/
+  // https://dashboard.emailjs.com/sign-in
   public sendEmail(event) {
     event.preventDefault();
     console.log("ok");
