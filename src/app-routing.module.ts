@@ -4,7 +4,7 @@ import { EmailjsComponent } from "./app/emailjs/emailjs.component";
 import { SmptjsComponent } from "./app/smptjs/smptjs.component";
 export const ROUTER = [
   {
-    path: "emailJS",
+    path: "",
     component: EmailjsComponent
   },
   {
