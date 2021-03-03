@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { EmailjsComponent } from "./app/emailjs/emailjs.component";
-import { SmtpjsComponent } from "./app/smptjs/smtpjs.component";
+import { SmtpjsComponent } from "./app/smtpjs/smtpjs.component";
 export const ROUTER = [
   {
     path: "",
