@@ -3,12 +3,11 @@ import "smtpjs";
 declare let Email: any;
 
 @Component({
-  selector: "app-smptjs",
-  templateUrl: "./smptjs.component.html",
-  styleUrls: ["./smptjs.component.css"]
+  selector: "app-smtpjs",
+  templateUrl: "./smtpjs.component.html",
+  styleUrls: ["./smtpjs.component.css"]
 })
-export class SmptjsComponent implements OnInit {
-  token = "2f1ff130-377f-4046-9d0b-df7876d0e122";
+export class SmtpjsComponent implements OnInit {
   form = {
     name: "",
     email: "",

@@ -1,15 +1,15 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { EmailjsComponent } from "./app/emailjs/emailjs.component";
-import { SmptjsComponent } from "./app/smptjs/smptjs.component";
+import { SmtpjsComponent } from "./app/smptjs/smtpjs.component";
 export const ROUTER = [
   {
     path: "",
     component: EmailjsComponent
   },
   {
-    path: "smptJS",
-    component: SmptjsComponent
+    path: "smtpJS",
+    component: SmtpjsComponent
   }
 ];
 @NgModule({
